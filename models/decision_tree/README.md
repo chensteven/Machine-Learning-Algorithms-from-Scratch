@@ -1,0 +1,5 @@
+A decision tree is a non-parametric supervised learning algorithm used for classification and regression tasks. It is a type of model that can be used to predict the value of a target variable based on several input variables, by splitting the data into subsets based on simple rules inferred from the input features.
+
+The decision tree is constructed by recursively splitting the data into smaller subsets, based on the features that lead to the highest information gain or Gini impurity reduction. At each split, the algorithm chooses the feature and the threshold that maximally separates the data into classes with the highest purity. The final result is a tree-like structure that contains a set of rules for classification or prediction.
+
+Decision trees have the advantage of being easy to interpret and visualize, as the resulting tree can be easily displayed graphically. They can also handle both numerical and categorical input variables, and are less sensitive to outliers than other models. However, they can be prone to overfitting, and may not perform as well as other models in some cases.
