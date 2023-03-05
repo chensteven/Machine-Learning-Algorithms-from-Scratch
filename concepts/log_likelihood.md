@@ -1,0 +1,7 @@
+In statistics, the likelihood function is a function of the model parameters that measures the probability of observing the data given the values of the parameters. The log-likelihood function is the natural logarithm of the likelihood function.
+
+While the likelihood function measures the probability of the observed data given the model parameters, the log-likelihood function is a transformation of the likelihood function that has some useful properties, especially for optimization purposes. One key property of the log-likelihood function is that it is a concave function of the parameters, which means that it has a unique maximum value. This makes it easier to find the maximum likelihood estimate of the parameters by maximizing the log-likelihood function, rather than the likelihood function itself.
+
+The log-likelihood function is also preferred over the likelihood function in some cases because it can simplify calculations involving large datasets. Taking the logarithm of the likelihood function can reduce the computational complexity of calculating the likelihood function, as well as make it easier to work with when performing numerical optimization or using certain statistical techniques.
+
+To summarize, the likelihood function measures the probability of observing the data given the model parameters, while the log-likelihood function is a transformation of the likelihood function that has some useful properties for optimization and computational purposes.
